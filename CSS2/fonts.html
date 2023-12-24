@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONTES</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/fonts.css">
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+    <style>
+        #topo {
+            min-width: 400px;
+            max-width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="topo">
+        <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button> | 
+        <button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button> | 
+        <button><a href="colors.html">< ESTILIZAÇÕES BÁSICAS COM CSS</a></button>
+    </fieldset>
+
+    <h1>FONTES</h1>
+    <h2><a href="https://fonts.google.com/" title="FONTES GOOGLE" target="_blank">FONTES GOOGLE</a></h2>
+    <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight" 
+        title="INFORMAÇÕES DE FONTE" target="_blank">INFORMAÇÕES DE FONTE</a></h2>
+        
+    <h2 id="traço">family-font: "courier new"</h2>
+    
+    <h2 id="arquivo">@font-face {
+        <ul>font-family: Death Stranding;</ul>
+        <ul>src: url(" ")</ul>
+    </h2>
+    
+    <h2 id="externo">@import url(' ')
+        <ul>font-family: Roboto</ul>
+        <ul>font-weight: bold</ul>
+        <ul>font-style: italic</ul>
+    </h2>
+
+    <fieldset id="font-size">
+        <legend><h2>FONT-SIZE</h2></legend>
+        <ul id="size">font-size: 50px</ul>
+        <ul id="xx-small">font-size: xx-small</ul>    
+        <ul id="x-small">font-size: x-small</ul>
+        <ul id="small">font-size: small</ul>
+        <ul id="medium">font-size: medium</ul>
+        <ul id="large">font-size: large</ul>
+        <ul id="x-large">font-size: x-large</ul>
+        <ul id="xx-large">font-size: xx-large</ul>
+        <fieldset id="smaller">#smaller {font-size: 30px}
+            <p>#smaller p: {font-size: smaller}</p>
+        </fieldset>
+        <fieldset id="larger">#larger {font-size: 30px}
+            <p>#larger p: {font-size: larger}</p>
+        </fieldset>
+    </fieldset>
+
+    <fieldset id="fonte">
+        <legend><h2>FONT-WEIGHT</h2></legend>
+        <ul id="weight900">font-weight: 900</ul>
+        <ul id="weight100">font-weight: 100</ul>
+        <fieldset id="lighter">font-weight: 800
+            <p>font-weight: lighter</p>
+        </fieldset>
+        <fieldset id="bolder">font-weight: 700
+            <p>font-weight: bolder</p>
+        </fieldset>
+    </fieldset>
+
+    <ul id="small-caps">Font-Variant: Small-Caps
+        <ul>Faz com que o texto fique todo em caixa alta (capslock), porém com as letras maiúsculas um pouco
+            maiores em relação as minúsculas.
+        </ul>
+    </ul>
+    <fieldset id="stretch">
+        <legend>FONT-STRETCH</legend>
+        <ul id="uc">ultra-condensed</ul>
+        <ul id="ec">extra-condensed</ul>
+        <ul id="sc">semi-condensed</ul>
+        <ul id="normal">normal</ul>
+        <ul id="se">semi-expanded</ul>
+        <ul id="expanded">expanded</ul>
+        <ul id="ee">extra-expanded</ul>
+        <ul id="ue">ultra-expanded</ul>
+    </fieldset>
+    <ul id="line-height">line-height altera a altura da linha no texto. Neste exemplo estou utilizando 2 
+        (sem unidade de medida), fazendo com que a linha tenha 40px, o dobro de 20px, que é a font-size 
+        utilizada aqui.</ul>
+        
+    <fieldset id="font">
+        <legend>FONT</legend>
+        <ul>ORDEM DE COMANDOS</ul>
+        <ul>font:
+            <ul>style</ul>
+            <ul>variant</ul>
+            <ul>weight</ul>
+            <ul>size / height</ul>
+            <ul>family</ul>
+            ficando dessa forma:            
+        </ul>
+        <p>font: italic small-caps 200 35px/1.2 "RE4 REMAKE";</p>
+    </fieldset>
+
+    <h2 style="color: white;">Continue com <button><h2 style="min-width: fit-content;">
+        <a href="text.html" title="TEXTOS">TEXTOS</a></button></h2></h2>
+</body>
+</html>

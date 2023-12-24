@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+#topo {
+    font-size: 20px;
+    min-width: 400px;
+    max-width: fit-content;
+}
+[configurações] {
+    margin: 50px 10px;
+    font-size: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+p {
+    white-space: pre-line;
+}
+#box-shadow {
+    box-shadow: 10px 10px 10px 1px darkgoldenrod;
+}
+#inset {
+    box-shadow: inset 10px 10px 10px 1px darkgoldenrod;
+}
+#dupla {
+    box-shadow: 10px 10px 10px 1px darkgoldenrod, 
+    10px 10px 10px 10px darkcyan;
+}
+[alt] {
+    max-width: 400px;
+    object-fit: contain;    
+}
+#imagem {
+    filter: drop-shadow(10px 10px 5px darkblue);
+}
+#texto {
+    color: red;
+    text-shadow: 10px 10px 5px black;
+}
+#opacidade {
+    opacity: 0.5;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORES</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/colors.css">
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+</head>
+<body>
+    <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button>
+    <p><button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button></p>
+    
+        <fieldset id="texto">
+            <legend>
+                <h1> ESTILIZAÇÕES BÁSICAS DO CSS</h1>
+            </legend>
+            <img width="200" src="https://bereguinha.github.io/aulas-css/CSS/PROFESSORA.png"/>
+            <h2><b  style="color: darkred;">com Michele Ambrosio</b></h2>
+                <ul>
+                    <h3 id="fundo-azul-escuro">Desenvolvedora Front-Ed - EDUZZ</h3>
+                </ul>            
+            <p></p>
+        </fieldset>
+
+        <h1 style="color: red;">CORES</h1>
+        <h2><a href="https://www.w3schools.com/tags/ref_colornames.asp" title="CORES" target="_blank">CORES PARA HTML</a></h2>
+        <div id="fundo1">
+            <h3>
+                <li>FUNDO 1</li>
+                <li id="transparente">FUNDO TRANSPARENTE</li>
+                <li>FUNDO 3</li>
+                <li id="borda">TEXTO COM BORDA</li>
+                <li>FUNDO 5</li>
+            </h3>
+        </div>
+        <fieldset id="fundo-azul-escuro caixa1">
+            <legend>
+                <h2>CORES EM RGB</h2>
+            </legend>
+            <h3>
+                As Cores em RGB são ativadas através da <ul>COLOR: RGB (color é um exemplo de propriedade)</ul> 
+                e as combinações vão de 0 a 255 em cada propriedade, no caso <i>R</i> pra vermelho, 
+                <i>G</i> pra verde e <i>B</i> pra azul.
+                <fieldset id="exemplo1">
+                    exemplo. para atingir a totalidade:
+                    <ul>vermelha, se coloca <u style="color: rgb(255, 0, 0);">color: rgb(255,0,0)</u></ul>
+                    <ul>verde, <u style="color: rgb(0, 255, 0);">color: rgb(0,255,0)</u></ul>
+                    <ul>azul, <u style="color: rgb(0, 0, 255);">color: rgb(0,0,255)</u></ul>
+                    <ul id="branco">branca, <u style="color: rgb(255, 255, 255);">color: rgb(255,255,255)</u></ul>
+                    <ul>preta, <u style="color: rgb(0, 0, 0);">color: rgb(0, 0, 0)</u></ul>
+                </fieldset>
+                <fieldset id="exemplo">
+                    <legend>Vermelho</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/vermelho.png">
+                </fieldset>
+                <fieldset id="exemplo">
+                    <legend style="color: green;">Verde</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/verde.png">
+                </fieldset>
+                <fieldset id="exemplo">
+                    <legend style="color: blue;">Azul</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/azul.png">
+                </fieldset>
+                <fieldset id="exemplo">
+                    <legend id="caixa1" style="color: white;">Branco</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/branco.png">
+                </fieldset>
+                <fieldset id="exemplo">
+                    <legend style="color: black;">Preto</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/preto.png">
+                </fieldset>
+            </h3>
+        </fieldset>
+        
+        <fieldset id="fundo-azul-escuro caixa2 preto">
+            <legend>
+                <h2>CORES EM RGBA</h2>
+            </legend>
+            <h3>
+                As Cores em RGBA são ativadas da mesma forma do RGB, porém, acrescentando o A no final.
+                Funciona da mesma forma do RGB, mas a quarta propriedade trabalha em forma centesimal,
+                ou seja, para ficar 100% transparente se coloca 0, e para 100% opaco se coloca o 1.
+                <ul>
+                    Para porcentagens seguidas de zero, apenas o número decimal já é suficiente, como 0.1, 0.2, até 0.9
+                </ul>
+                <ul>
+                    Já para valores entre 1 e 9, o número obrigatoriamente será centesimal, 0.01 até 0.09,
+                    e caso seja acima 0.1, será 0.11 até 0.19 e seguindo a mesma regra para o restante dos decimais.
+                </ul>                            
+                <fieldset id="exemplo">
+                    <ul></ul>
+                    No Exemplo abaixo temos <u style="color:rgba(184,134,11,0.3);">color:rgba(184,134,11,0.3)</u>
+                    <ul></ul>
+                    <legend style="color: darkgoldenrod;">Dourado Escuro com 70% de Transparência</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/gold.png">
+                </fieldset>
+            </h3>
+        </fieldset>
+        
+        <fieldset id="fundo-azul-escuro caixa3 preto">
+            <legend>
+                <h2>CORES EM HEXADECIMAL</h2>
+            </legend>
+            <h3>
+                As Cores em HEXADECIMAL são ativadas através da <ul>COLOR: # (color é um exemplo de propriedade)</ul> 
+                e as combinações vão de 0 a F em cada propriedade e cada propriedade tem dois dígitos. 
+                <p>Assim os dois primeiros dígitos correspondem ao <i>Vermelho</i>, os dois do meio ao <i>Verde</i>
+                e os dois últimos ao <i>Azul</i>.</p>
+                <fieldset id="exemplo1">
+                    exemplo. para atingir a totalidade:
+                    <ul>vermelha, se coloca <u style="color: #FF0000;">color: #FF0000</u></ul>
+                    <ul>verde, <u style="color: #00FF00">color: #00FF00</u></ul>
+                    <ul>azul, <u style="color: #0000FF;">color: #0000FF</u></ul>
+                    <ul id="branco">branca, <u style="color: #FFFFFF;"">color: #FFFFFF</u></ul>
+                    <ul>preta, <u style="color: #000000;">color: #000000</u></ul>                                    
+                </fieldset>
+                <fieldset id="exemplo">
+                    <ul>No Exemplo abaixo temos <u style="color:#A9A9A9;">color:#A9A9A9</u></ul>
+                    <legend style="color: #a9a9a9;">CINZA ESCURO</legend>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/cinzaescuro.png">
+                </fieldset>
+            </h3>
+        </fieldset>
+        
+        <fieldset id="fundo-azul-escuro caixa4 preto">
+            <legend>
+                <h2>CORES EM HEXADECIMAL COM TRANSPARÊNCIA</h2>
+            </legend>
+            <h3>
+                As Cores em HEXADECIMAL COM TRANSPARÊNCIA são ativadas da mesma forma do HEXADECIMAL, 
+                porém, acrescentando <u>mais dois dígitos no final</u>.
+                Funciona da mesma forma do HEXADECIMAL, porém os dois últimos dígitos serão responsáveis pela transparência.
+                <ul></ul>
+                <fieldset id="exemplo">
+                    <legend style="color: #0064004d;">VERDE ESCURO 70% TRANSPARENTE</legend>
+                    <ul>No Exemplo abaixo temos <u style="color:#0064004D;">color:#0064004D</u></ul>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/verdeescuro.png">
+                </fieldset>
+            </h3>
+        </fieldset>
+
+        <fieldset id="fundo-azul-escuro caixa5 preto1">
+            <legend>
+                <h2>CORES EM HSL E HSLA (com transparência)</h2>
+            </legend>
+            <h3>
+                As Cores em HSL são ativadas através da <ul>COLOR: HSL (color é um exemplo de propriedade)</ul> 
+                e as combinações vão de 0 a 360 na primeira propriedade <i>HUE</i> que é a Matiz, e de 0 a 100%
+                nas duas próximas propriedades, <i>SATURATION</i> pra Saturação e <i>LIGHTNESS</i> pra Luminosidade.
+                <ul></ul>
+                <fieldset id="exemplo">
+                    <legend style="color: hsl(300, 100%, 27%);">MAGENTA ESCURO</legend>
+                    <ul></ul>
+                    No Exemplo abaixo temos <u style="color:hsl(300, 100%, 27%);">color:hsl(300, 100%, 27%)</u>
+                    <ul></ul>
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/magentaescuro.png">
+                </fieldset>
+                <ul></ul>
+                Já no HSLA a quarta propriedade trabalha em forma centesimal,
+                    ou seja, para ficar 100% transparente se coloca 0, e para 100% opaco se coloca o 1.
+                    <ul>
+                        Para porcentagens seguidas de zero, apenas o número decimal já é suficiente, como 0.1, 0.2, até 0.9
+                    </ul>
+                    <ul>
+                        Já para valores entre 1 e 9, o número obrigatoriamente será centesimal, 0.01 até 0.09,
+                        e caso seja acima 0.1, será 0.11 até 0.19 e seguindo a mesma regra para o restante dos decimais.
+                    </ul>
+                <fieldset id="exemplo">
+                    <legend style="color: hsla(300, 100%, 27%, 0.3);">MAGENTA ESCURO 70% TRANSPARENTE</legend>
+                    <ul>
+                        No Exemplo abaixo temos <ul style="color:hsla(300, 100%, 27%, 0.3);">color:hsla(300, 100%, 27%, 0.3)</ul>
+                    </ul>                    
+                    <img src="https://bereguinha.github.io/aulas-css/assets/imagens/magentaescuro0_3.png">
+                </fieldset>
+            </h3>                        
+        </fieldset>        
+
+        <fieldset id="exemplo caixa6">
+            <legend>
+                <h2>RODA CSS HSL</h2>
+            </legend>
+            <a href="https://www.quackit.com/pix/stock/color_wheel_hsl.png" title="Abrir Imagem" target="_blank"><img src="https://www.quackit.com/pix/stock/color_wheel_hsl.png"></a>
+        </fieldset>
+        
+        <fieldset>
+            <legend><h2>Continue com Estilizações Básicas com CSS</h2></legend>
+            <ol id="rodape">
+                <li>
+                    <h3><a href="images.html" title="IMAGENS"> IMAGENS </a></h3>
+                </li>                
+                <li>
+                    <h3><a href="border.html" title="BORDAS"> BORDAS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="fonts.html" title="FONTES"> FONTES </a></h3>
+                </li>
+                <li>
+                    <h3><a href="background-clip.html" title="BACKGROUND-CLIP"> BACKGROUND-CLIP </a></h3>
+                </li>
+                <li>
+                    <h3><a href="text.html" title="TEXTOS"> TEXTOS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="shadow.html" title="SOMBRAS"> SOMBRAS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="overflow.html" title="OVERFLOW"> OVERFLOW </a></h3>
+                </li>
+            </ol>            
+        </fieldset>
+    </body>
+</html>

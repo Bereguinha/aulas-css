@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+}
+body, legend {
+    background-image: linear-gradient(darkgoldenrod, darkgreen, darkred, darkmagenta)
+}
+fieldset {    
+    background-color: rgba(245, 245, 245, 0.5);
+    max-width: fit-content;
+}
+h1 {
+    color: white;
+}
+[id^="borda"] {
+    background-color: darkcyan;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 10px;
+}
+#borda0 {
+    border-style: none dashed dotted double 
+}
+#borda1 {
+    border-style: groove ridge inset outset;
+}
+#borda2 {
+    border-color: darkblue darkgray darkmagenta darkgreen;
+}
+#borda3 {
+    border-radius: 50px
+}
+#borda4 {
+    border-radius: 100px/100px
+}
+#borda5 {
+    border-radius: 50%
+}
+[id^="img"] {    
+    background-color: darkgray;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-image-source: url("/assets/imagens/azul.png")
+}
+#img0 {
+    border-width: 50px;
+}
+#img1 {
+    border-width: 50px;
+    border-image-slice: 50    
+}
+#img2 {
+    border-image-width: 20%;
+}
+[id^="pic"] {
+    margin: 50px;
+    background-color: darkgray;    
+    max-width: fit-content;
+    min-width: 300px;
+    min-height: 200px;    
+    border-style: solid;
+    border-width: 50px;
+    border-image-width: 20%;
+    border-image-slice: 400;
+    border-image-source: url("/assets/imagens/borderimage.png");
+}
+#pic {
+    border-image-repeat: repeat;    
+}
+#pic0 {
+    border-image-repeat: stretch;
+}
+#pic1 {
+    border-image-repeat: round;
+}
+#pic2 {
+    border-image-repeat: space;
+}
+#pic3 {
+    border-image-outset: 20px;
+}
+#pic4 {
+    border-image: url("/assets/imagens/borderimage.png") 400 / 20% / 20px round;
+}

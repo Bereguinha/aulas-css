@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTOS</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/text.css">
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">    
+</head>
+<body>
+    <fieldset class="caixa" fonte="20" id="topo">
+        <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button> | 
+        <button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button> | 
+        <button><a href="colors.html">< ESTILIZAÇÕES BÁSICAS COM CSS</a></button>
+    </fieldset>   
+
+    <h1>TEXTOS</h1>
+
+    <fieldset class="caixa" id="transform">
+        <legend>TEXT-TRANSFORM</legend>
+        <li id="none">text-tranform: none;
+            <ul>não muda nada.</ul>
+        </li>
+        <li id="capitalize">text-tranform: capitalize;
+            <ul>altera todas as primeiras letras para maiúsculo.</ul>
+        </li>
+        <li id="uppercase">text-tranform: uppercase;
+            <ul>altera todas as letras para maiúsculo.
+                <li id="inherit">text-transform: inherit
+                    <ul>altera as letras de acordo com a propriedade pai.</ul>
+                </li>
+            </ul>
+        </li>
+        <li id="lowercase">text-tranform: lowercase;
+            <ul>ALTERA TODAS AS LETRAS PARA MINÚSCULO.</ul>
+        </li>
+    </fieldset>
+
+    <fieldset fonte="20" id="align">
+        <legend>TEXT-ALIGN</legend>
+        <li id="left">text-align: left;
+            <ul>o texto fica alinhado a esquerda do quadrado.</ul>
+        </li>
+        <li id="right">text-align: right;
+            <ul>o texto fica alinhado a direita do quadrado.</ul>
+        </li>
+        <li id="center">text-align: center;
+            <ul>o texto fica centralizado no quadrado.</ul>
+        </li>
+        <li id="justify">text-align: justify;
+            <ul>o texto fica distribuido de forma a ocupar todo o quadrado.</ul>
+        </li>
+    </fieldset>
+
+    <fieldset margin="50" fonte="20" class="decoration">
+        <legend>TEXT-DECORATION</legend>
+        <p id="center">TODAS AS PROPRIEDADES ABAIXO SEGUEM O COMANDO TEXT-DECORATION-LINE</p>
+        <ul></ul>
+        <li id="none">text-decoration: none;
+            <ul>deixa o texto sem nenhuma linha.</ul>
+        </li>
+        <li id="underline">text-decoration: underline;
+            <ul>sublinha o texto.</ul>
+        </li>
+        <li id="line-through">text-decoration: line-through;
+            <ul>risca o texto.</ul>
+        </li>
+        <li id="overline">text-decoration: overline;
+            <ul>coloca uma linha acima do texto.</ul>
+        </li>
+    </fieldset>
+
+    <fieldset class="caixa" fonte="20" id="style">
+        <legend>TEXT-DECORATION-STYLE</legend>
+        <li id="solid">text-decoration-style: solid;
+            <ul>traça uma linha sólida.</ul>
+        </li>
+        <li id="double">text-decoration-style: double;
+            <ul>traça uma linha dupla.</ul>
+        </li>
+        <li id="dotted">text-decoration-style: dotted;
+            <ul>traça uma linha pontilhada.</ul>
+        </li>
+        <li id="dashed">text-decoration-style: dashed;
+            <ul>traça uma linha tracejada.</ul>
+        </li>
+        <li id="wavy">text-decoration-style: wavy;
+            <ul>traça uma linha ondulada.</ul>
+        </li>
+    </fieldset>
+
+    <fieldset class="caixa" fonte="20" id="color">
+        <legend>TEXT-DECORATION-COLOR</legend>
+        colore apenas a linha.
+    </fieldset>
+
+    <fieldset class="caixa" fonte="20" id="thickness">
+        <legend>TEXT-DECORATION-THICKNESS</legend>
+        muda a espessura da linha. Aqui eu coloquei 10px.
+    </fieldset>
+
+    <fieldset class="caixa" fonte="20" id="linha">
+        <legend>TEXT-DECORATION</legend>
+        <ul>ORDEM DE COMANDOS</ul>
+        <ul>text-decoration:
+            <ul>line</ul>
+            <ul>style</ul>
+            <ul>color</ul>
+            <ul>thickness</ul>            
+            ficando dessa forma:            
+        </ul>
+        <p>text-decoration: overline double blue 5px;</p>
+    </fieldset>
+
+    <fieldset fonte="20" caixa="400" id="ident">
+        <legend>TEXT-IDENT</legend>
+        Define uma margem inicial para o texto. Exemplo: text-ident: 50px;
+    </fieldset>
+
+    <fieldset fonte="20" caixa="400" id="spacing">
+        <legend>SPACING</legend>
+        <ul id="letter">letter-spacing
+            define um espaçamento entre as letras dos textos.
+        </ul>
+        <ul id="word">word-spacing
+            define um espaçamento entre as palavras dos textos.
+        </ul>
+    </fieldset>
+
+    <fieldset fonte="20" caixa="400" id="spacing">
+        <legend>SPACING</legend>
+        <ul id="letter">letter-spacing
+            define um espaçamento entre as letras dos textos.
+        </ul>
+        <ul id="word">word-spacing
+            define um espaçamento entre as palavras dos textos.
+        </ul>
+    </fieldset>
+
+    <ul></ul>
+    <div fonte="20" caixa="400" class="white">
+        WHITE-SPACE
+        <p id="normal">white-space: normal
+            <p>os espaços em branco são resumidos em apenas 1.</p>
+        </p>
+    </div>
+    <div fonte="20" caixa="400" class="white">
+        <p>white-space: nowrap</p>
+        <p id="nowrap">os espaços em branco são resumidos em apenas 1 ignorando, inclusive a definição da caixa.</p>
+    </div>
+    <div fonte="20" caixa="400" class="white">
+        <p>white-space: pre</p>
+        <p id="pre">
+            todos os
+        espaços 
+    em 
+branco 
+    são 
+        mantidos</p>
+    </div>
+
+    <div fonte="20" caixa="400" class="white">
+        <p>white-space: pre-line</p>
+        <p id="pre-line">
+            as quebras de linha são mantidas, 
+porém, os espaços em branco não.</p>
+    </div>
+
+    <div fonte="20" caixa="400" class="white">
+        <p>white-space: pre-wrap</p>
+        <p id="pre-wrap">
+            as quebras de linha são mantidas 
+e os espaços em branco também.</p>
+    </div>
+
+    <div fonte="20" wrap="" class="white">
+        <p>word-wrap:</p>
+        <p id="wwnormal">
+            normal
+            Na_quebra_de_linha_a_palavra ultrapassa_o_limite da_caixa.</p>
+        <p id="break-word">
+            break-worda_o_limite da_caixa.</p>
+    </div>
+
+            Na_quebra_de_linha_a_palavra não_ultrapass
+    <div fonte="20" wrap="" class="white">
+        <p>word-break:</p>
+        <p id="wbnormal">
+            normal
+            Na_quebra_de_linha_a_palavra ultrapassa_o_limite da_caixa.</p>        
+        <p id="break-all">
+            break-all
+            Na_quebra_de_linha_a_palavra não_ultrapassa_o_limite da_caixa, 
+            mas ignora a quebra de linha do texto.</p>
+        <p id="keep-all">
+            keep-all
+            Na_quebra_de_linha_a_palavra ultrapassa_o_limite da_caixa,
+            já que é uma regra da escrita oriental.
+            それは東洋の文章のルールだから.</p>
+    </div>
+
+    <div fonte="20" wrap="" class="white">
+        <p>writing-mode:</p>
+        horizontal-tb
+        <p id="horizontal">            
+            Na escrita o padrão ocidental é ler da esquerda pra direita, ou seja,
+            o comando acima é o padrão do programa.</p>
+        <p>vertical-lr</p>
+        <p class="vertical" id="vertical-lr">            
+            Nesse comando, o texto passa a ser lido na vertical, mas mantido da 
+            esquerda pra direita.</p>
+        <p>vertical-rl</p>
+        <p class="vertical" id="vertical-rl">
+            Nesse comando, o texto passa a ser lido na vertical, 
+            porém, da direita pra esquerda.</p>
+    </div>
+    
+    <div fonte="20" wrap="" class="white">
+        <p>overflow: hidden</p>
+        <p id="hidden">esconde o texto que ultrapassa o limite da caixa.</p>
+    </div>
+
+    <fieldset fonte="20" caixa="400" id="hidden">
+        <legend>TEXT-OVERFLOW</legend>
+        <div wrap="" class="white">CLIP
+            <p id="clip">corta o texto que ultrapassa o limite da caixa.</p>
+        </div>
+        <div wrap="" class="white">ELLIPSIS
+            <p id="ellipsis">substitui com reticências o texto que ultrapassa o limite da caixa.</p>
+        </div>
+    </fieldset>
+
+    <h2>Continue com <button><h2><a href="shadow.html" title="SOMBRAS">SOMBRAS</a></button></h2></h2>
+</body>
+</html>

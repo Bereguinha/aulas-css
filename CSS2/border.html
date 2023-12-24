@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BORDAS</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/border.css">
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+
+    <style>
+        #topo {
+            min-width: 400px;
+            max-width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="topo">
+        <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button> | 
+        <button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button> | 
+        <button><a href="colors.html">< ESTILIZAÇÕES BÁSICAS COM CSS</a></button>
+    </fieldset>
+
+    <h1>BORDAS</h1>
+
+    <div id="borda"><h2><ul>TAMANHO DA BORDA border-width</ul></h2></div>
+
+    <div id="borda0"><h2><ul>ESTILO DA BORDA
+        <li>none</li>
+        <li>dashed</li>
+        <li>dotted</li>
+        <li>double</li>
+    </ul></h2></div>
+
+    <ul></ul>
+    <div id="borda1"><h2><ul>ESTILO DA BORDA
+        <li>groove</li>
+        <li>ridge</li>
+        <li>inset</li>
+        <li>outset</li>
+    </ul></h2></div>
+    
+    <ul></ul>
+    <div id="borda2"><h2><ul>COR DA BORDA
+        border-color
+        <li>darkblue</li>
+        <li>darkgray</li>
+        <li>darkmagenta</li>
+        <li>darkgreen</li>
+    </ul></h2></div>
+
+    <ul></ul>
+    <div id="borda3"><h2><ul>BORDA ARREDONDADA</ul><ul>border-radius 50px</ul></h2></div>
+
+    <div id="borda4"><h2><ul>BORDA OVAL</ul><ul>border-radius 100px/100px</ul></h2></div>
+
+    <div id="borda5"><h2><ul><ul>CIRCULO</ul></ul><ul>border-radius 50%</ul></h2></div>
+
+    <fieldset><legend><h2>BORDA COM IMAGEM</h2></legend>
+        <div id="img0"><h2><ul>SOURCE</ul>border-image-source: url("")</h2></div>
+        <ul></ul>
+        <div id="img1"><h2><ul>SLICE</ul>border-image-slice: 50</h2></div>
+        <ul></ul>
+        <div id="img2"><h2><ul>WIDTH</ul>border-image-width: 20%</h2></div>
+    </fieldset>
+
+    <fieldset><legend><h2>BORDA COM IMAGEM (repeat)</h2></legend>
+        <div id="pic"><h2><ul>REPEAT</ul>border-image-repeat: repeat</h2></div>
+        <ul></ul>
+        <div id="pic0"><h2><ul>STRETCH</ul>border-image-repeat: stretch</h2></div>
+        <ul></ul>
+        <div id="pic1"><h2><ul>ROUND</ul>border-image-repeat: round</h2></div>
+        <ul></ul>
+        <div id="pic2"><h2><ul>SPACE</ul>border-image-repeat: space</h2></div>        
+    </fieldset>
+
+    <ul></ul>
+    <div id="pic3"><h2><ul>OUTSET</ul>border-image-outset: 20px</h2></div>
+    <ul></ul>
+    <div id="pic4">
+        <h2>
+            <ul>ORDEM DE COMANDOS</ul>
+            <ul>border-image: 
+                <ul>source</ul>
+                <ul>slice /</ul>
+                <ul>width /</ul>
+                <ul>outset</ul>
+                <ul>repeat</ul>
+                ficando dessa forma:
+            </ul>
+            border-image: url("") 400 / 20% / 20px round
+        </h2>
+    </div>    
+
+    <h2 style="color: white;">Continue com <button><h2><a href="fonts.html" title="FONTES">FONTES</a></button></h2></h2>
+</body>
+</html>

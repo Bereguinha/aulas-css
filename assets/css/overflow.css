@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+#topo {
+    font-size: 20px;    
+    max-width: fit-content;
+}
+[configurações] {    
+    font-size: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+#margem {
+    margin: 0px 0px 200px;
+}
+div {
+    max-height: 100px;
+    white-space: pre-line;
+}
+#visible {
+    overflow: visible;    
+}
+#hidden {
+    overflow: hidden;
+}
+#scroll {
+    overflow: scroll;
+}
+[id^="auto"] {    
+    overflow: auto;
+    max-width: 400px;    
+}
+#auto0 {    
+    white-space: pre;
+}

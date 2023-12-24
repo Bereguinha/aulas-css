@@ -1,0 +1,151 @@
+* {
+        font-family: sans-serif;
+}
+.caixa {
+    min-width: 400px;
+    max-width: fit-content;
+}
+[fonte="20"] {
+    font-size: 20px;    
+}
+#none {
+    text-transform: none;
+}
+#capitalize {
+    text-transform: capitalize;
+}
+#uppercase {
+    text-transform: uppercase;
+}
+#lowercase {
+    text-transform: lowercase;
+}
+#inherit {
+    text-transform: inherit;
+}
+[caixa], #align {
+    width: 300px;    
+}
+#left {
+    text-align: left;
+}
+#right {
+    text-align: right;
+}
+#center {
+    text-align: center;    
+}
+.decoration {    
+    max-width: 400px;
+}
+#justify {
+    font-size: 25px;
+    text-align: justify;
+}
+#none {
+    text-decoration: none;
+}
+#underline {
+    text-decoration: underline;
+}
+#line-through {
+    text-decoration: line-through;
+}
+#overline {
+    text-decoration: overline;
+}
+#style li, #color, #thickness {
+    text-decoration-line: underline;    
+}
+#solid {
+    text-decoration-style: solid;
+}
+#double {    
+    text-decoration-style: double;
+}
+#dotted {
+    text-decoration-style: dotted;
+}
+#dashed {
+    text-decoration-style: dashed;
+}
+#wavy {
+    text-decoration-style: wavy;
+}
+#color {
+    text-decoration-color: red;
+}
+#thickness {
+    text-decoration-thickness: 10px;
+}
+#linha {
+    line-height: 2;
+    text-decoration: overline double blue 5px;
+}
+#ident {
+    text-indent: 50px;
+}
+#letter {
+    letter-spacing: 10px;
+}
+#word {
+    word-spacing: 20px;
+}
+#normal {
+    white-space: normal;
+}
+#nowrap {
+    white-space: nowrap;
+}
+#pre {
+    white-space: pre;
+}
+#pre-line {
+    white-space: pre-line;
+}
+#pre-wrap {
+    white-space: pre-wrap;
+}
+.white {
+    background-color: darkcyan;
+}
+[wrap] {
+    width: 200px;
+}
+#wwnormal {
+    word-wrap: normal;
+}
+#break-word {
+    word-wrap: break-word;
+}
+#wbnormal {
+    word-break: normal;
+}
+#break-all {
+    word-break: break-all;
+}
+#keep-all {
+    word-break: keep-all;
+}
+#horizontal {
+    writing-mode: horizontal-tb;
+}
+.vertical {
+    max-height: 200px;
+}
+#vertical-lr {
+    writing-mode: vertical-lr;
+}
+#vertical-rl {
+    writing-mode: vertical-rl;
+}
+#hidden, #hidden p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+#clip {
+    text-overflow: clip;
+}
+#ellipsis {
+    text-overflow: ellipsis;
+}

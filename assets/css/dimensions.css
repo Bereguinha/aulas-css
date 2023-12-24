@@ -1,0 +1,76 @@
+* {
+    font-family: sans-serif;
+}
+#botão {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: auto;            
+}
+[id*=caixa] {            
+    color: white;
+    width: 400px;
+    height: auto;
+}
+#caixa1 {
+    background-color: darkblue;
+}
+#caixa2 {
+    background-color: darkcyan;
+    margin: 20px;
+}
+#caixa3 {
+    background-color: darkgoldenrod;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#caixa4 {
+    background-color: darkgray;
+    margin: 20px 60px;
+}
+#caixa5 {
+    background-color: darkgreen;
+    margin: 10px 80px 60px;
+}
+#caixa6 {
+    background-color: darkmagenta;
+    margin: 10px 10px 80px 100px;
+}
+#caixa7 {
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+#caixa8 {
+    background-color: darkorange;
+    padding: 20px;
+    box-sizing: border-box;
+}
+[id*="Cor"] {
+    background-color: white;
+}
+#Cor1 {            
+    color: darkblue;
+}
+#Cor2 {
+    color: darkcyan;
+}
+#Cor3 {
+    color: darkgoldenrod
+}
+#Cor4 {
+    color: darkgray;
+}
+#Cor5 {
+    color: darkgreen;
+}        
+#Cor6 {
+    color: darkmagenta;
+}
+#Cor7 {
+    color: darkolivegreen;
+}
+#Cor8 {
+    color: darkorange;
+}

@@ -1,0 +1,58 @@
+<html> 
+    <head>
+        <title>
+            TRABALHANDO COM FORMULÁRIOS
+        </title>
+        <link rel="stylesheet" href="assets/css/links.css">
+
+        <style>
+            * {
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://bereguinha.github.io/aulas-css/">< INTRODUÇÃO AO HTML NA PRÁTICA</a>
+        <h1 style="color: red;"> TRABALHANDO COM FORMULÁRIOS </h1>
+
+        <button type="submit">Enviar</button> <button type="reset">Reiniciar</button>
+
+        <h2> FORMULÁRIO </h2>
+        <form name="signup" onsubmit="alert('Enviei o Formulário')" autocomplete="on" method="post" action="index.html">
+            Nome: <input type="text" name="name" /><br>
+            Idade: <input type="number" name="age" /><br>
+            Senha: <input type="password" name="password" /><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h2 style="color: blue;">FORMULÁRIO 2</h2>
+        <form method="post">
+            Idade: <input type="number" min="14" max="99" name="age" /><br>
+            Escolher: <input type="range" min="14" max="99" value="50" /><br>
+            Cor: <input type="color" /><br>
+            Email: <input type="email" /><br>
+            Site: <input type="url" /><br>
+            Data de Nascimento: <input type="date" /><br>
+            Semana: <input type="week" /><br>
+            Mês: <input type="month" /><br>
+            Caixinha: <input type="checkbox" /><br>
+            Rádio: <input type="radio" /><br>
+            Invisível: <input type="hidden" /><br>
+            Arquivo: <input type="file" multiple/><br>
+            Pesquisar: <input type="search"/><br>
+
+        <h2 style="color: blue;">CheckBox e Radio</h2>
+        <h3>Rádio: </h3>
+        <input type="radio" name="onoff" value="Ligar" /> Ligar <br>
+        <input type="radio" name="onoff" value="Desligar" /> Desligar <br>
+
+        <h3>Escolha os Estilos</h3>
+        <input type="checkbox" name="estilos" value="Forró"/>Forró<br> 
+        <input type="checkbox" name="estilos" value="Piseiro"/>Piseiro<br> 
+        <input type="checkbox" name="estilos" value="Pisadinha"/>Pisadinha<br> 
+        <input type="checkbox" name="estilos" value="Sertanejo"/>Sertanejo<br> 
+      
+        </form>
+
+        <h2 style="color: green;">Continue com <a href="structure.html" title="ESTRUTURA">ESTRUTURA </a></h2>
+    </body>
+</html>

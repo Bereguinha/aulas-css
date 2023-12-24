@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELETORES</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+
+    <style>
+        * {font-family: sans-serif;}
+        
+        #texto{
+            max-width: 900px;
+        }    
+        legend{
+            color: red;
+        }
+        ul #seletorID{
+            background-color: black;
+            color: white;
+        }
+        .seletorClasse, .Classe3, #ID-3{
+            background-color: darkblue;
+            color: white;
+        }
+        .Classe2, #ID2{
+            background-color: darkcyan;
+            color: white;
+        }
+        [id^="id"]{
+            background-color: darkgoldenrod;
+            color: white;
+        }
+        [id$=id]{
+            background-color: darkgray;
+        }
+        [id*="clase"]{
+            background-color: darkgreen;
+            color: white;
+        }
+        ul [class]{
+            background-color: darkmagenta;
+            color: white;
+        }
+        [id|="Classe1"]{
+            background-color: darkolivegreen;
+            color: white;
+        }
+        [id~="cllase"]{
+            background-color: darkkhaki;
+        }
+    </style>
+</head>
+<body>
+    <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button>
+    <p><button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button></p>
+    
+    <h1 style="color: red;">SELETORES</h1>
+
+    <fieldset id="texto" style="background-color: black;">
+        <legend style="background-color: white;"><h2>COMBINADOR FILHO</h2></legend>
+        <h3 style="color: white;">
+            Muda apenas os seletores filhos que estiverem diretamente ligados ao seletores pai, através do 
+        </h3>
+        <blockquote style="color: white;">SELETOR PAI > SELETOR FILHO</blockquote>
+        <h4 style="color: white;">
+            No caso aqui o seletor pode ser qualquer um: Tag, ID, Classe ou um Atributo aleatório.
+        </h4>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkblue;">
+        <legend style="background-color: white;"><h2>COMBINADOR MÚLTIPLO</h2></legend>
+        <h3 style="color: white;">
+            Muda seletores em comando conjunto, apenas separando os seletores por vírgula para indentificar cada um, 
+        </h3>
+        <blockquote style="color: white;">TAG, #ID, .CLASS, [ATRIBUTO]</blockquote>
+    </fieldset>
+    
+    <fieldset id="texto" style="background-color: darkgoldenrod;">
+        <legend style="background-color: white;"><h2>SELETOR PREFIXADO</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através de um prefixo, através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO^="SELETOR"]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores id="Seletor1" , id="Seletor2" e id="Seletor3" tem a palavara <i>Seletor</i>
+                em Comum, ou seja, este será o Prefixo.</blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkgrey;">
+        <legend style="background-color: white;"><h2>SELETOR SUFIXADO</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através de um sufixo, através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO$="SELETOR"]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores id="1Seletor" , id="2Seletor" e id="3Seletor" tem a palavara <i>Seletor</i>
+                em Comum, ou seja, este será o Sufixo.</blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkgreen;">
+        <legend style="background-color: white;"><h2>PALAVRA LOCALIZADA</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através de uma palavra (ou conjunto de letras) em comum, através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO*="SELETOR"]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores id="Seletor" , id="Seletores" e id="Seletador" tem a palavara <i>Selet</i>
+                em Comum, ou seja, esta será <u>Palavra Localizada</u>.</blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkmagenta;">
+        <legend style="background-color: white;"><h2>SELETOR DE ATRIBUTO</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através do seu atributo, através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores id="Seletor" , id="Seletores" e id="Seletador" tem o atributo <i>id</i>
+                em Comum, ou seja, este será o <u>ATRIBUTO</u> a ser selecionado.</blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkolivegreen">
+        <legend style="background-color: white;"><h2>PALAVRA ISOLADA OU COM HÍFEN</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através de um seletor isolado ou SEGUIDO de hífen ( - ), através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO|=SELETOR]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores:
+                <li>id="Seletor"</li>
+                <li>id="Seletor1"</li>
+                <li>id="Seletar 1"</li>
+                <li>id="Seletor-1"</li> 
+                tem o seletor <i>Seletor</i> em comum, porém, para o comando funcionar,
+                apenas os que estiverem isolados ou seguidos de hífen é que vão funcionar.
+                <p><u>Seletor</u> e <u>Seletor-1</u> serão modificados.</p></blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkkhaki;">
+        <legend style="background-color: white;"><h2>PALAVRA ISOLADA</h2></legend>
+        <h3 style="color: white;">
+        Muda os Seletores através de um seletor isolado, através do 
+        </h3>
+        <blockquote style="color: white;">[ATRIBUTO~="SELETOR"]</blockquote>
+        <fieldset style="background-color: antiquewhite;"><h4>Exemplo:
+            <blockquote>Os seletores:
+                <li>id="Seletor"</li>
+                <li>id="Seletor1"</li>
+                <li>id="Seletar 1"</li>
+                <li>id="Seletor-1"</li> 
+                tem o seletor <i>Seletor</i> em comum, porém, para o comando funcionar,
+                apenas os que estiverem isolados ou seguidos de hífen é que vão funcionar.
+                <p><u>Seletor</u> e <u>Seletor 1</u> serão modificados.</p></blockquote>
+        </h4></fieldset>
+    </fieldset>
+
+    <div id="texto">
+        <ul>
+            <li id="seletorID">Seletor 1</li>
+            <li id="seletorID">Seletor 2</li>        
+        </ul>
+        <li id="seletorID">Seletor 3</li>
+        <li class="seletorClasse">Seletor 4</li>
+        <li class="seletorClasse Classe2">Seletor 5</li>
+        <li class="Classe2">Seletor 6</li>
+        <li class="Classe3">Seletor 7</li>
+        <li id="ID2">Seletor 8</li>
+        <li id="ID-3">Seletor 9</li>
+        <li id="id1">PREFIXO 1</li>
+        <li id="id2">PREFIXO 2</li>
+        <li id="1id">SUFIXO 1</li>
+        <li id="2id">SUFIXO 2</li>
+        <li id="clase1">PALAVRA LOCALIZADA 1</li>
+        <li id="clase2">PALAVRA LOCALIZADA 2</li>
+        <ul>
+            <div id="">Seletor 16</div>
+            <div class="">ATRIBUTO 1</div>
+            <div class="">ATRIBUTO 2</div>
+            <div id="Classe1-Classe2">PALAVRA ISOLADA OU COM HÍFEN 1</div>
+            <div id="Classe1-Classe3">PALAVRA ISOLADA OU COM HÍFEN 2</div>
+            <div id="Classe1">PALAVRA ISOLADA OU COM HÍFEN 3</div>
+        <li id="cllase 1">PALAVRA ISOLADA 1</li>
+        <li id="cllase1">PALAVRA ISOLADA 2</li>
+        <li id="1cllase">PALAVRA ISOLADA 3</li>
+        <li id="1 cllase">PALAVRA ISOLADA 4</li>
+    </div>
+
+    <h2 style="color: green;">Continue com <a href="dimensions.html" title="DIMENSÕES">DIMENSÕES </a></h2>
+</body>
+</html>

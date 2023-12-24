@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+}
+h5{
+    background-color: grey;
+    color: goldenrod;
+}
+fieldset{
+    background-color: darkblue;    
+    max-width: 600px;
+}
+body, legend, [id*="exemplo"] {
+    background-color: antiquewhite;
+}
+legend{    
+    color: red;
+}
+#rodape, h3 a, [id~=fundo-azul-escuro], [id=fundo1] li, [id=branco] u {
+    color: white;
+}
+[id~="caixa1"]{
+    background-color: darkcyan;
+}
+[id=fundo1] li, [id=branco] u {
+    background-color: black;
+    width: 600px;
+}
+#transparente, #borda {
+    background-color: transparent;
+    border: 2px solid currentColor;
+    width: 300px;
+}
+#preto1 {
+    background-color: white;        
+}
+#transparente, #borda, [id*="exemplo"], [id~=caixa2], [id~="preto"] {
+    color: black;    
+}
+[id~=exemplo] {
+    max-width: fit-content;
+}
+[id~=caixa2] {
+    background-color: rgba(183, 134, 11,0.3);    
+}
+[id~=caixa3] {
+    background-color: #a9a9a9;
+}
+[id~=caixa4] {
+    background-color: #0064004d;
+}
+[id~=caixa5] {
+    background-color: hsl(300, 100%, 27%)
+}
+[id~=caixa6] {
+    background-color: hsla(300, 100%, 27%, 0.3)
+}

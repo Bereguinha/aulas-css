@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMBRAS</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/shadow.css">
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+</head>
+<body>
+    <fieldset id="topo">
+        <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button> | 
+        <button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button> | 
+        <button><a href="colors.html">< ESTILIZAÇÕES BÁSICAS COM CSS</a></button>
+    </fieldset>   
+
+    <h1>SOMBRAS</h1>
+
+    <fieldset configurações="" id="box-shadow">
+        <legend>BOX-SHADOW</legend>
+        <p>Cria uma sombra.
+
+            No Exemplo a seguir utilizei:
+            box-shadow: 10px 10px 10px 1px darkgoldenrod;
+
+            Onde a ordem das propriedades é
+            horizontal,
+            vertical,
+            borrão,
+            preenchimento, 
+            cor da sombra.
+        </p>
+    </fieldset>
+
+    <fieldset configurações="" id="inset">
+        <legend>INSET</legend>
+        <p>Cria uma sombra interna.
+
+            No Exemplo a seguir utilizei:
+            box-shadow: inset 10px 10px 10px 1px darkgoldenrod;
+
+            Onde a ordem das propriedades é a mesma.
+        </p>
+    </fieldset>
+
+    <fieldset configurações="" id="dupla">
+        <legend>SOMBRA DUPLA</legend>
+        <p>Para criar uma sombra dupla, 
+
+            eu utilizei:
+            box-shadow: 10px 10px 10px 1px darkgoldenrod,
+            10px 10px 10px 10px darkcyan;
+
+            Isto serve para ter várias bordas, tanto interna, quanto externa, é só separar cada sombra por vírgula (,).
+        </p>
+    </fieldset>
+    
+    <fieldset configurações="">
+        <legend>DROP-SHADOW</legend>
+        <p>Para criar uma sombra ao redor da imagem png,
+        
+            eu utilizei:
+            filter: drop-shadow (10px 10px 5px darkblue);
+
+            <img src="https://cdn2.steamgriddb.com/logo_thumb/5b658d2a925565f0755e035597f8d22f.png" alt="" id="imagem">
+        </p>
+    </fieldset>
+
+    <fieldset configurações="">
+        <legend>TEXT-SHADOW</legend>
+        <p id="texto">Para criar uma sombra ao redor do texto,
+        
+            eu utilizei:
+            text-shadow: 10px 10px 5px black;            
+        </p>
+        Caso eu não colocasse cor para sombra, ela seria a mesma da letra.
+    </fieldset>
+
+    <fieldset configurações="">
+        <legend>OPACITY</legend>
+        <p>Para criar uma transparência no elemento, se utiliza:
+            opacity: 
+            e a porcentagem de opacidade do elemento, indo de
+            1 para 100%
+            0 para 0%
+            0.1 até 0.9 para porcentagens decimais (10% a 90%)
+            0.01 até 0.09 para porcentagens centesimais (1% a 9%). 
+
+            <img src="https://cdn2.steamgriddb.com/logo_thumb/5b658d2a925565f0755e035597f8d22f.png" alt="" id="opacidade">
+            50%
+            Comparação
+            100%
+            <img src="https://cdn2.steamgriddb.com/logo_thumb/5b658d2a925565f0755e035597f8d22f.png" alt="">
+        </p>
+    </fieldset>
+
+    <h2>Continue com <button><h2><a href="overflow.html" title="OVERFLOW">OVERFLOW</a></button></h2></h2>
+</body>
+</html>

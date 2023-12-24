@@ -1,0 +1,138 @@
+body, legend {
+    background-image: linear-gradient(white, grey)
+}
+fieldset, h2 {
+    min-width: 400px;
+    max-width: fit-content;
+}
+#line-height, #small-caps {
+    max-width: 400px;
+}
+* {
+    font-family: sans-serif;
+}
+#traço {
+    background-color: rgba(0, 0, 139, 0.3);    
+    font-family: "courier new";
+}
+@font-face {
+    font-family: Death Stranding;
+    src: url(/assets/fontes/Sackers\ Gothic\ Light\ AT.otf);
+}
+@font-face {
+    font-family: RE4 REMAKE;
+    src: url(/assets/fontes/resident_evil_4_remake_font_by_snakeyboy_df7kacs.ttf);
+}
+#arquivo, #arquivo ul {    
+    background-color: rgba(184, 134, 11, 0.3);
+    font-family: Death Stranding;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#externo, #externo ul {    
+    background-color: rgba(0, 100, 0, 0.3);
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
+}
+#font-size {
+    background-color: rgba(139, 0, 139, 0.3);
+}
+#size {
+    font-size: 50px;
+}
+#xx-small {
+    font-size: xx-small;
+}
+#x-small {
+    font-size: x-small;
+}
+#small {
+    font-size: small;
+}
+#medium {
+    font-size: medium;
+}
+#large {
+    font-size: large;
+}
+#x-large {
+    font-size: x-large;
+}
+#xx-large {
+    font-size: xx-large;
+}
+#smaller, #larger, #stretch {
+    font-size: 30px;
+}
+#smaller p {
+    font-size: smaller;
+}
+#larger p {
+    font-size: larger;
+}
+#fonte {
+    background-color: rgba(85, 107, 47, 0.3);
+}
+#weight900 {
+    font-weight: 900;
+}
+#weight100 {
+    font-weight: 100;
+}
+#fonte, #line-height, #small-caps {
+    font-size: 20px;
+}
+#lighter {
+    font-weight: 800;
+}
+#lighter p {
+    font-weight: lighter;
+}
+#bolder {
+    font-weight: 700;
+}
+#bolder p {
+    font-weight: bolder;
+}
+#small-caps {
+    background-color: rgba(255,140,0, 0.3);
+    font-variant: small-caps;
+}
+#stretch {
+    background-color: rgba(139, 0, 0, 0.3);
+}
+#uc {
+    font-stretch: ultra-condensed;
+}
+#ec {
+    font-stretch: extra-condensed;
+}
+#sc {
+    font-stretch: semi-condensed;
+}
+#normal {
+    font-stretch: normal;
+}
+#se {
+    font-stretch: semi-expanded;
+}
+#expanded {
+    font-stretch: expanded;
+}
+#ee {
+    font-stretch: extra-expanded;
+}
+#ue {
+    font-stretch: ultra-expanded;
+}
+#line-height {
+    background-color: rgba(144, 238, 144, 0.3);
+    line-height: 2;
+}
+#font ul, #font p {
+    color: whitesmoke;
+}
+#font, #font ul, #font p {
+    background-color: rgba(0, 139, 139, 0.3);    
+    font: italic small-caps 200 35px/1.2 "RE4 REMAKE";
+}

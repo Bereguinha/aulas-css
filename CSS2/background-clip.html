@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKGROUND CLIP</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+
+    <style>
+        [id^="0background"]{            
+            width: 300px;
+            height: 300px;
+            color: white;        
+            border: 10px dashed grey;
+            padding: 20px;
+            font-size: 60px;                        
+            background-image: linear-gradient(red, blue);
+        }
+        [id~="padding"] {                            
+            background-clip: padding-box;
+        }
+        [id~="border"] {                        
+            background-clip: border-box;
+        }
+        [id~="content"] {
+            background-clip: content-box;
+        }
+        [id~="text"] {            
+            -webkit-background-clip: text;
+            color: transparent;
+            background-clip: text;
+        }
+        #topo {
+            min-width: 400px;
+            max-width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="topo">
+        <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button> | 
+        <button><a href="https://bereguinha.github.io/aulas-css/CSS/CSS.html">< FUNDAMENTOS DO CSS</a></button> | 
+        <button><a href="colors.html">< ESTILIZAÇÕES BÁSICAS COM CSS</a></button>
+    </fieldset>
+    
+    <div id="0background padding">PADDING</div>
+    <div id="0background border">BORDER</div>
+    <div id="0background content">CONTENT</div>    
+    <div id="0background text">TEXT</div>
+
+    <h2>Continue com <button><h2><a href="border.html" title="BORDAS">BORDAS</a></button></h2></h2>
+</body>
+</html>

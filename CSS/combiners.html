@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMBINADORES</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        #texto{
+            max-width: 800px;
+        }
+        legend{
+            color: red;
+        }
+        ul > li{
+            background-color: black;
+            color: white;            
+        }
+        li div{
+            background-color: darkblue;
+            color: white;
+        }
+        ul ~ li{
+            background-color: darkcyan;
+            color: white;
+        }
+        li + ul{
+            background-color: darkgoldenrod;
+            color: white;
+        }
+        li #seletorID{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <button><a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a></button>
+    <p><button><a href="CSS.html">< FUNDAMENTOS DO CSS</a></button></p>
+    
+    <h1 style="color: red;">COMBINADORES</h1>
+    
+    <fieldset id="texto" style="background-color: black;">
+        <legend style="background-color: white;"><h2>COMBINADOR FILHO</h2></legend>
+        <h3 style="color: white;">
+            Muda apenas os seletores filhos que estiverem diretamente ligados ao seletores pai, através do 
+        </h3>
+        <blockquote style="color: white;">SELETOR PAI > SELETOR FILHO</blockquote>
+    </fieldset>
+    
+    <fieldset id="texto" style="background-color: darkblue;">
+        <legend style="background-color: white;"><h2>COMBINADOR DESCENDENTE</h2></legend>
+        <h3 style="color: white;">
+            Muda todos os seletores iguais que estiverem ligados ao seletores pai, através do
+        </h3>
+        <blockquote style="color: white;">SELETOR PAI SELETOR DESCENDENTE</blockquote>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkcyan;">
+        <legend style="background-color: white;"><h2>COMBINADOR IRMÃO EM GERAL</h2></legend>
+        <h3 style="color: white;">
+        Muda todos os seletores iguais que estiverem na mesma linha após o primeiro irmão, através do
+        </h3>
+        <blockquote style="color: white;">SELETOR IRMÃO 1 ~ SELETOR IRMÃO 2</blockquote>
+    </fieldset>
+
+    <fieldset id="texto" style="background-color: darkgoldenrod;">
+        <legend style="background-color: white;"><h2>COMBINADOR IRMÃO ADJACENTE</h2></legend>
+        <h3 style="color: white;">
+        Muda apenas o primeiro seletores que estiver na mesma linha após o primeiro irmão, através do
+        </h3>
+        <blockquote style="color: white;">SELETOR IRMÃO 1 + SELETOR IRMÃO 2</blockquote>
+    </fieldset>
+    
+    <div id="texto">
+        <ul>
+            <li>Combinador Filho 1</li>
+            <li>Combinador Filho 2</li>
+            <li>
+                <div>Combinador Normal 1</div>
+                <div>Combinador Normal 2</div>
+            </li>
+        </ul>
+        <li>Combinador Irmão 1</li>
+        <li>Combinador Irmão 2</li>
+        <ul>Combinador Irmão 3</ul>
+        <ul>Combinador Irmão 4</ul>
+    </div>   
+
+    <h2 style="color: green;">Continue com <a href="selectors.html" title="SELETORES">SELETORES </a></h2>
+</body>
+</html>

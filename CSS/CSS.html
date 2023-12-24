@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/links.css">
+
+    <style>  
+        fieldset, [id*="texto"]{
+            max-width: 400px;
+        }
+        #cinza h3{
+            background-color: grey;
+        }
+
+        #SeletorID h3{
+            background-color: black; 
+            color: aliceblue;
+        }
+
+        .SeletorClasse h3, #rodape {
+            background-color: darkblue;
+            color: white;            
+        }
+        .ID2{
+            color: darkcyan;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://bereguinha.github.io/aulas-css/assets/css/style.css">
+</head>
+<body>
+    <a href="https://bereguinha.github.io/aulas-css/index.html">< INTRODUÇÃO AO HTML NA PRÁTICA</a>
+        <fieldset>
+            <legend>
+                <h1> FUNDAMENTOS DO CSS</h1>
+            </legend>
+            <img width="200" src="PROFESSORA.png"/>
+            <h2><b  style="color: darkred;">com Michele Ambrosio</b></h2>
+                <ul>
+                    <h3 id="fundo-azul-escuro">Desenvolvedora Front-Ed - EDUZZ</h3>
+                </ul>            
+            <p></p>
+        </fieldset>
+        <h1>Seletor de Tags</h1>
+        <div id="texto">
+            <ul>
+                <li id="cinza">
+                    <h3>Seletor 1</h3>
+                </li>
+                <li>
+                    <h4>Seletor 2</h4>
+                </li>
+                <li id="cinza">
+                    <h3>Seletor 3</h3>
+                </li>
+                <uL>
+                    <li id="SeletorID">
+                        <h3>Seletor 4</h3>
+                    </li>
+                    <li id="cinza">
+                        <h3>Seletor 5</h3>
+                    </li>
+                    <li id="SeletorID ID2" class="ID2">
+                        <h4>Seletor 6</h4>
+                    </li>
+                    <ul>
+                        <li class="SeletorClasse">
+                            <h3>Seletor 7</h3>
+                        </li>
+                        <li id="cinza">
+                            <h3>Seletor 8</h3>                    
+                        </li>
+                        <li class="SeletorClasse ID2">
+                            <h4>Seletor 9</h4>
+                        </li>                    
+                    </ul>
+                </uL>
+            </ul>
+        </div>
+        
+        <fieldset>
+            <legend><h2> Continue com CSS </a></h2></legend>
+            <ol id="rodape">
+                <li>
+                    <h3><a href="combiners.html" title="COMBINADORES"> COMBINADORES </a></h3>
+                </li>
+                <li>
+                    <h3><a href="selectors.html" title="SELETORES"> SELETORES </a></h3>
+                </li>
+                <li>
+                    <h3><a href="dimensions.html" title="PROPRIEDADES DE DIMENSIONAMENTO E ESPAÇAMENTO"> PROPRIEDADES DE DIMENSIONAMENTO E ESPAÇAMENTO </a></h3>
+                </li>
+            </ol>            
+        </fieldset>
+        <fieldset>
+            <legend><h2><a href="https://bereguinha.github.io/aulas-css/CSS2/colors.html" title="ESTILIZAÇÕES BÁSICAS COM CSS"> ESTILIZAÇÕES BÁSICAS COM CSS </a></h2></legend>
+            <ol id="rodape">
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/images.html" title="IMAGENS"> IMAGENS </a></h3>
+                </li>                
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/border.html" title="BORDAS"> BORDAS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/fonts.html" title="FONTES"> FONTES </a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/background-clip.html" title="BACKGROUND-CLIP"> BACKGROUND-CLIP </a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/text.html" title="TEXTOS"> TEXTOS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/shadow.html" title="SOMBRAS"> SOMBRAS </a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://bereguinha.github.io/aulas-css/CSS2/overflow.html" title="OVERFLOW"> OVERFLOW </a></h3>
+                </li>
+            </ol>            
+        </fieldset>
+        
+</body>
+</html>
